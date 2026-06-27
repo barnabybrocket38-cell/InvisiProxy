@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "start": "node run-command.mjs stop && node run-command.mjs build && node run-command.mjs manual-start"
+  }
+}
