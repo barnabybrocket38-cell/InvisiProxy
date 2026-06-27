@@ -1,0 +1,9 @@
+name = "edu"
+type = "javascript"
+account_id = ""
+workers_dev = true
+compatibility_date = "2026-06-27"
+compatibility_flags = ["nodejs_compat"]
+
+[env.production]
+name = "edu"
