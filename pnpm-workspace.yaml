@@ -3,6 +3,15 @@ packages:
 
 allowBuilds:
   '@mercuryworkshop/scramjet': true
-  core-js: true
-  esbuild: true
-  utf-8-validate: true
+  '@mercuryworkshop/scramjet-controller': true
+  'core-js': true
+  'esbuild': true
+  'utf-8-validate': true
+  'chii': true
+  '@cypress/request': true
+  'uuid': true
+
+pnpm:
+  neverBuiltDependencies:
+    - '@mercuryworkshop/scramjet'
+    - 'utf-8-validate'
