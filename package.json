@@ -7,7 +7,7 @@
   "scripts": {
     "fresh-install": "pnpm update && pnpm ci",
     "fresh-start": "pnpm run fresh-install && pnpm start",
-    "start": "pnpm stop && pnpm run build && pnpm run manual-start",
+    "start": "node run-command.mjs stop && node run-command.mjs build && node run-command.mjs manual-start",
     "restart": "node run-command.mjs stop start",
     "stop": "node run-command.mjs stop",
     "test": "pnpm run proxy-validator",
